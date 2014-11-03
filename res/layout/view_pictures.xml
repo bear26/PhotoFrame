@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/viewFlipper">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Large Text"
+                        android:id="@+id/viewPicturesPercentTextFirstView"
+                        android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <Button
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/view_pictures_button_previous"
+                        android:id="@+id/viewPicturesButtonPrevious" android:layout_weight="1"/>
+                <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/viewPicturesImageFirstView" android:layout_weight="10"/>
+                <Button
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/view_pictures_button_next"
+                        android:id="@+id/viewPicturesButtonNext" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ViewFlipper>
+</LinearLayout>

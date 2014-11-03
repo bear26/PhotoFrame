@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фоторамка</string>
+    <string name="auth_dialog_title">Авторизация</string>
+    <string name="auth_dialog_message">Открыть браузер для авторизации?</string>
+    <string name="auth_dialog_positive_button">Да</string>
+    <string name="auth_dialog_negative_button">Выход</string>
+    <string name="main_activity_button_show">Показать слайд-шоу</string>
+    <string name="main_activity_message_its_not_a_image">Выбирите картинку</string>
+    <string name="view_pictures_button">Следующая картинка</string>
+    <string name="no_images">В текущей папки отсутствуют картинки</string>
+    <string name="view_pictures_button_previous">Назад</string>
+    <string name="view_pictures_button_next">Вперед</string>
+    <string name="main_activity_folder_is_emtpy">Папка пустая</string>
+    <string name="view_pictures_folder_has_one_image">В текущей папке одно изображение</string>
+</resources>
